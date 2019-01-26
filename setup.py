@@ -8,7 +8,7 @@ with open('README.md', 'r') as f:
 
 setup(
     name="cli-print",
-    version="3.1.4",
+    version="3.4.0",
     packages=find_packages(),
 
     # metadata for upload to PyPI
