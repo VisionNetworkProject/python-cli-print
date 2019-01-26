@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-import terminal_print as tp
+import cli_print as cp
 
-tp.success()
+cp.success()
 

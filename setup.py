@@ -7,19 +7,19 @@ with open('README.md', 'r') as f:
     long_description = f.read()
 
 setup(
-    name="terminal-print",
+    name="cli-print",
     version="3.1.4",
     packages=find_packages(),
 
     # metadata for upload to PyPI
     author="Vision Network",
     author_email="michael@vision.network",
-    description="Colored Terminal Print",
-    keywords='Python, Terminal, Print, Colored',
+    description="Colored CLI Print",
+    keywords='Colored, CLI, Terminal, Print',
 
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/VisionNetworkProject/python-terminal-print",
+    url="https://github.com/VisionNetworkProject/python-cli-print",
 
     classifiers=[
         "Programming Language :: Python :: 3",

@@ -1,20 +1,19 @@
-# Python: Terminal Print
+# Python: CLI Print
 
-[![PyPi Version](http://img.shields.io/pypi/v/terminal-print.svg)](https://pypi.python.org/pypi/terminal-print/)
+[![PyPi Version](http://img.shields.io/pypi/v/cli-print.svg)](https://pypi.python.org/pypi/cli-print/)
 
-Colored Terminal Print
+Colored CLI Print
 
 
 ## Installation
 
 ``` console
-$ pip3 install terminal-print
+$ pip3 install cli-print
 ```
 
 
 ## Usage
 
 ``` python
-import terminal-print as tp
+import cli-print as cp
 ```
-
