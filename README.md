@@ -15,5 +15,5 @@ $ pip3 install cli-print
 ## Usage
 
 ``` python
-import cli-print as cp
+import cli_print as cp
 ```
