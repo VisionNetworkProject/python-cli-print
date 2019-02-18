@@ -16,6 +16,9 @@ STYLE_ABOUT_TO = Fore.LIGHTYELLOW_EX
 STYLE_GETTING = Fore.LIGHTYELLOW_EX
 STYLE_WATCHING = Fore.LIGHTYELLOW_EX
 
+PREVIOUS_LINE = '\x1b[1A'
+ERASE_LINE = '\x1b[2K'
+
 
 def spaces(n: int = 1):
     """
@@ -88,6 +91,20 @@ def fx(n: int = 1):
     sys.stdout.flush()
     if n > 1:
         lx(n - 1)
+    return
+
+
+def previous_line(clear: bool = False):
+    """
+    Back to previous line.
+
+    :param bool clear: Whether clear the line.
+    :return: None
+    """
+    wr(PREVIOUS_LINE)
+    if clear:
+        wr(ERASE_LINE)
+    fi()
     return
 
 
