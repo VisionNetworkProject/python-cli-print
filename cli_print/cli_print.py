@@ -145,11 +145,11 @@ def plain_text(text: str):
     return
 
 
-def success(text: str = 'success.', inline: bool = False):
+def success(text='success.', inline: bool = False):
     """
     Print success text.
 
-    :param str text: Success text
+    :param text: Success text
     :param bool inline: Whether print as inline, or end with a `\n`.
     :return: None
     """
@@ -162,7 +162,7 @@ def error(text, inline: bool = False):
     """
     Print error text.
 
-    :param str text: Error text
+    :param text: Error text
     :param bool inline: Whether print as inline, or end with a `\n`.
     :return: None
     """
